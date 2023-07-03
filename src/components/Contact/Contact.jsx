@@ -9,6 +9,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 const Contact = () => {
   useEffect(() => {
@@ -30,6 +31,15 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          // alert("message sent successfully");
+          Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Message sent successfully',
+            showConfirmButton: false,
+            timer: 1500
+          })
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
@@ -128,7 +138,7 @@ const Contact = () => {
           </div>
           <input
             type="submit"
-            value="Submit"
+            value="Send"
             className="btn btn-primary mt-4"
           />
         </form>
