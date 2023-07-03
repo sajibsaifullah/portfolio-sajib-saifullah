@@ -18,9 +18,9 @@ const Projects = () => {
         <hr className="border-2 border-indigo-500 w-[150px] mx-auto mt-2" />
       </div>
       {/* projects card */}
-      <div className="grid lg:grid-cols-3 mt-10">
+      <div className="grid lg:grid-cols-3 gap-4 mt-10">
         {/* 1 */}
-        <div className="card w-96 h-[500px] bg-base-100 shadow-xl">
+        <div className="card w-full h-[500px] bg-base-100 shadow-xl">
           <figure>
             <img
               src={img1}
@@ -57,7 +57,7 @@ const Projects = () => {
           </div>
         </div>
         {/* 2 */}
-        <div className="card w-96 h-[500px] bg-base-100 shadow-xl">
+        <div className="card w-full h-[500px] bg-base-100 shadow-xl">
           <figure>
             <img
               src={img2}
@@ -91,7 +91,7 @@ const Projects = () => {
           </div>
         </div>
         {/* 3 */}
-        <div className="card w-96 h-[500px] bg-base-100 shadow-xl">
+        <div className="card w-full h-[500px] bg-base-100 shadow-xl">
           <figure>
             <img
               src={img3}

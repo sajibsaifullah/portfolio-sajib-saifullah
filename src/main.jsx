@@ -13,7 +13,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <div className="bg-base-200">
+    <div className="bg-base-200 px-16">
       <RouterProvider router={router} />
     </div>
   </React.StrictMode>

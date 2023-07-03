@@ -23,7 +23,7 @@ const Banner = () => {
           <h1 className="text-6xl font-bold py-3">Md. Saifullah Sajib</h1>
           <p className="text-3xl font-semibold">I am a Web Developer</p>
           <button className="btn btn-primary my-6 hover:bg-purple-600">
-            Hire Me
+            <a href="#contact">Hire Me</a>
           </button>
           <button
             onClick={handleDownload}
