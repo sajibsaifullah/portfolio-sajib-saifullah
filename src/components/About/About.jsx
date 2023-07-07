@@ -2,11 +2,7 @@ import about from "../../assets/about.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import {
-  FaFacebookSquare,
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaFacebookSquare, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const About = () => {
   useEffect(() => {
@@ -21,7 +17,10 @@ const About = () => {
         <hr className="border-2 border-indigo-500 w-[150px] mx-auto mt-2" />
       </div>
       <div className="mt-8 lg:flex items-center">
-        <div className="lg:w-[30%] flex justify-center mb-4 lg:mb-0" data-aos="flip-left">
+        <div
+          className="lg:w-[30%] flex justify-center mb-4 lg:mb-0"
+          data-aos="flip-left"
+        >
           <img src={about} alt="" className="w-[300px] h-[300px] rounded-xl" />
         </div>
         <div className="lg:w-[70%]" data-aos="zoom-in-up">
@@ -39,7 +38,7 @@ const About = () => {
           {/* TODO: icon of the social site */}
           <div className="flex gap-3 pt-6">
             <a
-              href="https://www.linkedin.com/in/saifullah-sajib-325a17280/"
+              href="https://www.linkedin.com/in/md-saifullah-sajib/"
               target="blank"
             >
               <FaLinkedin className="w-6 h-6" />

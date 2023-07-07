@@ -33,12 +33,12 @@ const Contact = () => {
           console.log(result.text);
           // alert("message sent successfully");
           Swal.fire({
-            position: 'top-end',
-            icon: 'success',
-            title: 'Message sent successfully',
+            position: "top-end",
+            icon: "success",
+            title: "Message sent successfully",
             showConfirmButton: false,
-            timer: 1500
-          })
+            timer: 1500,
+          });
           e.target.reset();
         },
         (error) => {
@@ -73,7 +73,7 @@ const Contact = () => {
           </div>
           <div className="flex gap-3 pt-4">
             <a
-              href="https://www.linkedin.com/in/saifullah-sajib-325a17280/"
+              href="https://www.linkedin.com/in/md-saifullah-sajib/"
               target="blank"
             >
               <FaLinkedin className="w-6 h-6" />
@@ -136,11 +136,7 @@ const Contact = () => {
               required
             ></textarea>
           </div>
-          <input
-            type="submit"
-            value="Send"
-            className="btn btn-primary mt-4"
-          />
+          <input type="submit" value="Send" className="btn btn-primary mt-4" />
         </form>
       </div>
     </div>
