@@ -17,7 +17,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="bg-base-200 pt-12">
+    <div className="bg-base-200 pt-12 text-center lg:text-left">
       <div className="lg:flex justify-between items-center">
         <div data-aos="fade-right">
           <h4 className="text-2xl font-semibold">Hi, I am</h4>
@@ -46,7 +46,7 @@ const Banner = () => {
             Download Resume
           </button>
         </div>
-        <div data-aos="fade-left">
+        <div data-aos="fade-left" className="flex justify-center">
           <img
             src={image}
             //   className="w-1/2 rounded-lg shadow-2xl"

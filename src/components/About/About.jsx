@@ -21,7 +21,7 @@ const About = () => {
         <hr className="border-2 border-indigo-500 w-[150px] mx-auto mt-2" />
       </div>
       <div className="mt-8 lg:flex items-center">
-        <div className="lg:w-[30%]" data-aos="flip-left">
+        <div className="lg:w-[30%] flex justify-center mb-4 lg:mb-0" data-aos="flip-left">
           <img src={about} alt="" className="w-[300px] h-[300px] rounded-xl" />
         </div>
         <div className="lg:w-[70%]" data-aos="zoom-in-up">

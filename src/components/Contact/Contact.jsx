@@ -56,7 +56,7 @@ const Contact = () => {
         <hr className="border-2 border-indigo-500 w-[150px] mx-auto mt-2" />
       </div>
       <div className="lg:grid grid-cols-3 mt-10">
-        <div className="space-y-4 mt-4" data-aos="fade-right">
+        <div className="space-y-4 mt-4 mb-4 lg:mb-0" data-aos="fade-right">
           <div className="flex items-center">
             <FaMailBulk className="w-8 h-8" />
             <div className="ml-3">
