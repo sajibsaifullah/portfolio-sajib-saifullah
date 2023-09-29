@@ -78,7 +78,7 @@ const Contact = () => {
             >
               <FaLinkedin className="w-6 h-6" />
             </a>
-            <a href="https://www.facebook.com/Kb202" target="blank">
+            <a href="https://www.facebook.com/sajib.saifullah.md" target="blank">
               <FaFacebookSquare className="w-6 h-6" />
             </a>
             <a href="https://github.com/sajibsaifullah" target="blank">
